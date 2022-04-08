@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background-color: #514f69;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+#name-label,
+#email-label,
+#number-label {
+  font-size: 20px;
+}
+select {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+button[type="submit"] {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  background-color: #008d6a;
+  border: none;
+  cursor: pointer;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  resize: none;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 24px;
+}
+#title {
+  font-size: 36px;
+  color: beige;
+  font-weight: bold;
+}
+#description {
+  font-size: 24px;
+  color: beige;
+  font-style: italic;
+}
+
+.form-container {
+  margin: 0px 300px 0px 300px;
+  background-color: #1e1d3b;
+  padding: 30px;
+}
+.form-items {
+  padding: 20px 10px 20px 10px;
+  text-align: left;
+}
+/* #dropdown {
+  box-sizing: border-box;
+  font-size: 20px;
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 20px;
+} */
+.drop,
+.recommend,
+.features,
+.improvement,
+.improvement-list {
+  font-size: 20px;
+}
+/* .recommend {
+  font-size: 20px;
+} */
+.definitely,
+.maybe,
+.not-sure {
+  display: block;
+  font-size: 20px;
+}
+.improvement-list {
+  margin-bottom: 30px;
+}
+.comment {
+  font-size: 20px;
+}

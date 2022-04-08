@@ -1,0 +1,209 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Page</title>
+  </head>
+
+  <body>
+    <div class="heading">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </div>
+
+    <div class="form-container">
+      <form id="survey-form" class="form-items" action="#">
+        <label id="name-label" for="Name">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        /><br />
+
+        <label id="email-label" for="Email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your Email"
+          required
+        /><br />
+
+        <label id="number-label" for="Age">Age (optional)</label><br />
+        <input
+          type="number"
+          id="number"
+          name="number"
+          min="10"
+          max="50"
+          placeholder="10"
+        /><br />
+
+        <div class="drop">
+          <label for="Dropdown"
+            >Which option best describes your current role?</label
+          ><br />
+        </div>
+        <select name="dropdown" id="dropdown">
+          <option value="Select current position">
+            Select current position
+          </option>
+          <option value="Student">Student</option>
+          <option value="Full Time Job">Full Time Job</option>
+          <option value="Full Time Learner">Full Time Learner</option>
+          <option value="Prefer Not To Say">Prefer Not To Say</option>
+          <option value="Other">Other</option>
+        </select>
+        <br />
+        <div class="recommend">
+          <label for="question"
+            >Would you recommend freeCodeCamp to a friend?</label
+          ><br />
+        </div>
+
+        <label for="definitely" class="definitely">
+          <input id="definitely" type="radio" name="answer" />Definitely
+        </label>
+
+        <label for="maybe" class="maybe">
+          <input id="maybe" type="radio" name="answer" />Maybe
+        </label>
+
+        <label for="Not sure" class="not-sure">
+          <input id="Not sure" type="radio" name="answer" />Not sure
+        </label>
+        <br />
+        <div class="features">
+          <label for="Features"
+            >What is your favorite feature of freecodecamp?</label
+          ><br />
+          <select name="features" id="features">
+            <option value="Select an option">Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="project">Project</option>
+            <option value="community">Community</option>
+            <option value="open source">Open source</option>
+          </select>
+          <br />
+        </div>
+        <div class="improvement">
+          <label for="Improvements"
+            >What would you like to see improved? (Check all that apply)</label
+          ><br />
+        </div>
+        <div class="improvement-list">
+          <label for="front-end">
+            <input
+              type="checkbox"
+              id="Front-end Projects"
+              name="Improvement-list"
+            />Front-end Projects </label
+          ><br />
+
+          <label for="back-end">
+            <input
+              type="checkbox"
+              id="Back-end Projects"
+              name="Improvement-list"
+            />Back-end Projects </label
+          ><br />
+
+          <label for="data-visualization">
+            <input
+              type="checkbox"
+              id="data-visualization"
+              name="Improvement-list"
+            />Data Visualization </label
+          ><br />
+
+          <label for="challenges">
+            <input
+              type="checkbox"
+              id="challenges"
+              name="Improvement-list"
+            />Challenges </label
+          ><br />
+
+          <label for="Open Source Community">
+            <input
+              type="checkbox"
+              id="Open Source Community"
+              name="Improvement-list"
+            />Open Source Community </label
+          ><br />
+
+          <label for="Gitter Help Room">
+            <input
+              type="checkbox"
+              id="Gitter Help Room"
+              name="Improvement-list"
+            />Gitter Help Rooms </label
+          ><br />
+
+          <label for="Videos">
+            <input
+              type="checkbox"
+              id="Videos"
+              name="Improvement-list"
+            />Videos </label
+          ><br />
+
+          <label for="City Meetups">
+            <input
+              type="checkbox"
+              id="City Meetups"
+              name="Improvement-list"
+            />City Meetups </label
+          ><br />
+
+          <label for="Wiki">
+            <input
+              type="checkbox"
+              id="Wiki"
+              name="Improvement-list"
+            />Wiki </label
+          ><br />
+
+          <label for="Forum">
+            <input
+              type="checkbox"
+              id="Forum"
+              name="Improvement-list"
+            />Forum </label
+          ><br />
+
+          <label for="Additional Courses">
+            <input
+              type="checkbox"
+              id="Additional Courses"
+              name="Improvement-list"
+            />Additional Courses </label
+          ><br />
+        </div>
+
+        <label for="textarea" class="comment">Any comments or sugestions?</label
+        ><br />
+        <textarea
+          name="suggestions"
+          id="suggestions"
+          cols="30"
+          rows="10"
+          placeholder="Enter your comment here...."
+        ></textarea
+        ><br />
+        <button type="submit" class="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
